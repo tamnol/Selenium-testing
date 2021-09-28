@@ -2,7 +2,7 @@
 Selenium  web components automation testing using VS code ide
 
 this project consists of building an automate testing environment by leveraging on components such as: 
-1- A proprietary chrome driver 32 package for windows,
+<il>- A proprietary chrome driver 32 package for windows,</il>
 2- A Selenium Jar zip file,
 3- Other Jar Files for the JUnit testing (Junit-4-13.2) and (java-dotenv-5.2.2) for the environment variables configuration.
 all these to allow a project that is less host environment reliant and easy to deploy.
