@@ -1,4 +1,4 @@
-# Selenium-testing
+# Selenium-AutoTesting-VScode_IDE
 Selenium  web components automation testing using VS code ide
 
 this project consists of building an automate testing environment by leveraging on components such as: 
