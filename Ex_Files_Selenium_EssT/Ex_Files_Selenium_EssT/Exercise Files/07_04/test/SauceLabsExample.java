@@ -3,7 +3,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import java.net.URL;
 
-public class SauceLabsExample {
+public class SauceLabsExemplar {
 
     public static final String USERNAME = "YOUR_USERNAME";
     public static final String ACCESS_KEY = "YOUR_ACCESS_KEY";
@@ -12,8 +12,8 @@ public class SauceLabsExample {
     public static void main(String[] args) throws Exception {
 
         DesiredCapabilities caps = DesiredCapabilities.chrome();
-        caps.setCapability("platform", "macOS 10.12");
-        caps.setCapability("version", "66.0");
+        caps.setCapability("platform", "Windows 10 Home");
+        caps.setCapability("version", "19043.1237");
 
         WebDriver driver = new RemoteWebDriver(new URL(URL), caps);
 
